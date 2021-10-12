@@ -3,7 +3,8 @@
     font-weight: 300;
     font-size: 24px;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0%;
+    box-sizing: border-content;
 }
 
 body{
@@ -22,7 +23,7 @@ body{
     position: fixed;
     right: -5.291666666666667rem;
     top:-7.958333333333333rem ;
-    filter: blur(10rem);
+    filter: blur(9rem);
     opacity: 50%;
 }
 
@@ -40,44 +41,48 @@ body{
 .bg{
     position: fixed;
     position: relative;
-    height:100vh;
+    height:100%;
     width:75.18796992481202vw;
     min-width: 19.958333333333332rem;
     background-color: #FFFFFF;
 }
 
 .boxcover{
+    /* position: absolute; */
     display: flex;
-    position:absolute;
-    background-color: #FFFFFF;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
     justify-content: center;
-    align-items: center;
+    background-color: #FFFFFF;
+    width:75.18796992481202vw;
+    min-width: 19.958333333333332rem;
+    justify-content: center;
     text-align: center;
+
+
 }
 
 
+
+
 h1{
+    margin-top: 6.708333333333333rem;
     font-weight: 600;
     font-size: 34px;
 
 }
 
 .message1{
-    margin-bottom: 4.125rem;
+    margin-bottom: 2.75rem;
 }
 
 
 img{
     width: 10.416666666666666rem;
-    margin-bottom: 2.6666666666666665rem;
+    margin-bottom: 2.75rem;
 }
 
 
 .message2{
-    margin-bottom: 3.1666666666666665rem;
+    margin-bottom: 2.9583333333333335rem;
 }
 
 
@@ -91,7 +96,8 @@ img{
     border-radius: 20px;
     cursor: pointer;
     border: none;
-    padding:0;    
+    padding:0;   
+    margin-bottom: 7.958333333333333rem; 
 }
 
 .btn:hover{
