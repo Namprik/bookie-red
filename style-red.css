@@ -17,23 +17,23 @@ body{
 }
 
 #one{
-    width: 9.666666666666666rem;
-    height: 9.666666666666666rem;
+    width: 10rem;
+    height: 10rem;
     background-color: #F4C253;
     position: fixed;
-    right: -5.291666666666667rem;
-    top:-7.958333333333333rem ;
+    right: -5rem;
+    top: -8rem ;
     filter: blur(9rem);
     opacity: 50%;
 }
 
 #two{
-    width: 9.666666666666666rem;
-    height: 9.666666666666666rem;
+    width: 10rem;
+    height: 10rem;
     background-color: #F4C253;
     position: fixed;
-    left: -2.25rem;
-    bottom:-1.7083333333333333rem ;
+    left: -2rem;
+    bottom:-2rem ;
     filter: blur(8rem);
     opacity: 50%;
 }
@@ -42,8 +42,8 @@ body{
     position: fixed;
     position: relative;
     height:100%;
-    width:75.18796992481202vw;
-    min-width: 19.958333333333332rem;
+    width:75vw;
+    min-width: 20rem;
     background-color: #FFFFFF;
 }
 
@@ -51,8 +51,8 @@ body{
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
-    width:75.18796992481202vw;
-    min-width: 19.958333333333332rem;
+    width:75vw;
+    min-width: 20rem;
     justify-content: center;
     text-align: center;
 
@@ -61,25 +61,19 @@ body{
 
 
 h1{
-    margin-top: 6.708333333333333rem;
+    margin-top: 7rem;
     font-weight: 600;
     font-size: 34px;
 
 }
 
 .message1{
-    margin-bottom: 2.75rem;
+    margin-bottom: 3rem;
 }
-
-
-img{
-    width: 10.416666666666666rem;
-    margin-bottom: 2.75rem;
-}
-
 
 .message2{
-    margin-bottom: 2.9583333333333335rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -87,14 +81,14 @@ img{
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
-    width: 16.666666666666668rem;
-    height: 2.2916666666666665rem;
+    width: 400px;
+    height: 55px;
     background-color: #2D4863;
     border-radius: 20px;
     cursor: pointer;
     border: none;
     padding:0;   
-    margin-bottom: 7.958333333333333rem; 
+    margin-bottom: 8rem; 
 }
 
 .btn:hover{
