@@ -1,0 +1,99 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    background-color: #E2410A;
+
+}
+
+#one{
+    width: 9.666666666666666rem;
+    height: 9.666666666666666rem;
+    background-color: #F4C253;
+    position: fixed;
+    right: -5.291666666666667rem;
+    top:-7.958333333333333rem ;
+    filter: blur(10rem);
+    opacity: 50%;
+}
+
+#two{
+    width: 9.666666666666666rem;
+    height: 9.666666666666666rem;
+    background-color: #F4C253;
+    position: fixed;
+    left: -2.25rem;
+    bottom:-1.7083333333333333rem ;
+    filter: blur(8rem);
+    opacity: 50%;
+}
+
+.bg{
+    position: fixed;
+    position: relative;
+    height:100vh;
+    width:75.18796992481202vw;
+    min-width: 19.958333333333332rem;
+    background-color: #FFFFFF;
+}
+
+.boxcover{
+    display: flex;
+    position:absolute;
+    background-color: #FFFFFF;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 34px;
+
+}
+
+.message1{
+    margin-bottom: 4.125rem;
+}
+
+
+img{
+    width: 10.416666666666666rem;
+    margin-bottom: 2.6666666666666665rem;
+}
+
+
+.message2{
+    margin-bottom: 3.1666666666666665rem;
+}
+
+
+.btn{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 16.666666666666668rem;
+    height: 2.2916666666666665rem;
+    background-color: #2D4863;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    padding:0;    
+}
+
+.btn:hover{
+    background-color:#333333;
+}
