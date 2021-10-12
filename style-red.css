@@ -4,7 +4,7 @@
     font-size: 24px;
     margin: 0;
     padding: 0%;
-    box-sizing: border-content;
+
 }
 
 body{
@@ -48,7 +48,6 @@ body{
 }
 
 .boxcover{
-    /* position: absolute; */
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
@@ -59,8 +58,6 @@ body{
 
 
 }
-
-
 
 
 h1{
